@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="application.VocabularyPracticeTest" time="0.089" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/test-classes:/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/classes:/Users/arkadiuszkuzma/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/arkadiuszkuzma/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/arkadiuszkuzma/.m2/repository/fi/helsinki/cs/tmc/edu-test-utils/0.4.2/edu-test-utils-0.4.2.jar:/Users/arkadiuszkuzma/.m2/repository/org/testfx/testfx-junit/4.0.15-alpha/testfx-junit-4.0.15-alpha.jar:/Users/arkadiuszkuzma/.m2/repository/org/testfx/testfx-core/4.0.15-alpha/testfx-core-4.0.15-alpha.jar:/Users/arkadiuszkuzma/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/Users/arkadiuszkuzma/.m2/repository/org/testfx/openjfx-monocle/jdk-11+26/openjfx-monocle-jdk-11+26.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-win.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-win.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-win.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-mac.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-mac.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/surefire/surefirebooter2807992039692437017.jar /Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/surefire 2023-08-05T15-43-17_781-jvmRun1 surefire892553394822279087tmp surefire_015168875179082024724tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/test-classes:/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/classes:/Users/arkadiuszkuzma/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/arkadiuszkuzma/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/arkadiuszkuzma/.m2/repository/fi/helsinki/cs/tmc/edu-test-utils/0.4.2/edu-test-utils-0.4.2.jar:/Users/arkadiuszkuzma/.m2/repository/org/testfx/testfx-junit/4.0.15-alpha/testfx-junit-4.0.15-alpha.jar:/Users/arkadiuszkuzma/.m2/repository/org/testfx/testfx-core/4.0.15-alpha/testfx-core-4.0.15-alpha.jar:/Users/arkadiuszkuzma/.m2/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar:/Users/arkadiuszkuzma/.m2/repository/org/testfx/openjfx-monocle/jdk-11+26/openjfx-monocle-jdk-11+26.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-base/11-ea+25/javafx-base-11-ea+25-win.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-controls/11-ea+25/javafx-controls-11-ea+25-win.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-win.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-graphics/11-ea+25/javafx-graphics-11-ea+25-mac.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-mac.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-mac.jar:/Users/arkadiuszkuzma/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/arkadiuszkuzma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice/target/surefire/surefirebooter2807992039692437017.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.18+10"/>
+    <property name="user.name" value="arkadiuszkuzma"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.18+10"/>
+    <property name="localRepository" value="/Users/arkadiuszkuzma/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hg/2p4n06md7w92_h1m38lms8g40000gn/T/"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="/Users/arkadiuszkuzma/NetBeansProjects/mooc-java-programming-ii/part13-Part13_12.VocabularyPractice"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/arkadiuszkuzma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.18+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="noTests" classname="application.VocabularyPracticeTest" time="0.006"/>
+</testsuite>
